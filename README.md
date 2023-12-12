@@ -9,7 +9,7 @@ Before you begin, make sure you have the following installed on your machine:
 
 Step 1:
 
-- ## [git clone https://github.com/SCoomer7/react-test-drive-app.git](https://github.com/SCoomer7/lucky-beard-test-drive-app.git)
+- ## git clone https://github.com/SCoomer7/lucky-beard-test-drive-app.git
 - Navigate to the project directory.
 
 Step 2:
