@@ -1,0 +1,48 @@
+.article-heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    margin-top: 10%;
+}
+.article-card {
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.article-card-body {
+    padding: 100px 20px 100px 20px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.article-card-title{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.article-card-author {
+    padding-bottom: 20px;
+}
+
+.article-card-button {
+    color: var(--White, #FFF);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px 60px;
+    margin: 1rem;
+    border-radius: 10px;
+    background: var(--Blue-1, #5A89EA);
+}
+
+/* This is the break point CSS for the conatiner mobile responsive */
+@media (max-width: 480px) {
+
+
+}

@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+Welcome to My Web App! This is my assessment for `Lucky Beard` web application with a sleek and responsive design, built using Bootstrap CSS. Below, you'll find instructions on how to run the app locally and some insights into why Bootstrap CSS was chosen as the framework for styling.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Before you begin, make sure you have the following installed on your machine:
 
-## Available Scripts
+- Node.js (version 10 or higher)
+- npm (Node.js package manager)
+- Installation
+- Clone the repository to your local machine.
 
-In the project directory, you can run:
+Step 1:
 
-### `npm start`
+- ## git clone https://github.com/SCoomer7/react-test-drive-app.git
+- Navigate to the project directory.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Step 2:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ## cd react-test-drive-app
+- Install the dependencies.
 
-### `npm test`
+Step 3:
+Now that you have the project set up, you can run the app. Use the following command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ## npm start
+- This will start the development server, and you can access the app by visiting http://localhost:3000 in your web browser.
 
-### `npm run build`
+Packages used:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## "@emailjs/browser"
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## "@reduxjs/toolkit"
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## "@fortawesome/fontawesome-svg-core"
 
-### `npm run eject`
+## "@fortawesome/free-solid-svg-icons"
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## "@fortawesome/react-fontawesome"
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## "axios"
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## "bootstrap"
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## "react-bootstrap"
 
-## Learn More
+## "react-dom"
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## "react-router-dom"
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## "react-scripts"
 
-### Code Splitting
+## "react-redux"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Navigation:
 
-### Analyzing the Bundle Size
+- ## React Router Package.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+CSS Framework:
 
-### Making a Progressive Web App
+- ## Bootstrap.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Global State Management:
 
-### Advanced Configuration
+- ## Redux toolkit.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Data Requests:
 
-### Deployment
+- ## Axios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Email submit functionality:
 
-### `npm run build` fails to minify
+- ## EmailJS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Why Bootstrap CSS? Well, I went with Bootstrap CSS to style my app for the following reasons:
+
+## Familiarity:
+
+One of the reasons we went with Bootstrap is because I'm familiar with it and it has its benefits for a simple application.
+
+## Responsive Design:
+
+Bootstrap hooks us up with a responsive grid system and ready-made classes that make sure our app looks awesome and works smoothly on all kinds of devices and screen sizes.
+
+## Time Saver:
+
+Bootstrap brings a bunch of pre-designed components and styles to the party, which means I don't have to whip up as much custom CSS but for some of the designs requried I had to use custom CSS to acheive the design specs.
+
+Issues Experienced:
+
+- I had issues with installing the redux package for some reason.
+- I had some issues with the articles API but found a way to fetch the array of stories via &{id}.
+
+With more time, what changes would I make:
+
+- I would have created a local server with server.js to handle my data such as the ImageCard.js data.

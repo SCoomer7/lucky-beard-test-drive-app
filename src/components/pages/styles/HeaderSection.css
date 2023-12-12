@@ -1,0 +1,95 @@
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/public/images/header-image.png');
+    background-size: cover;
+    background-position: top;
+    margin-top: -10%;
+    padding-top: 18%;
+    padding-bottom:10%;
+    color: white;
+}
+
+.header-texts {
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0%;
+    letter-spacing: -1.86px;
+}
+
+.header-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    padding-left: 35%;
+    padding-right: 35%;
+    margin: 0px;
+}
+
+.store-row {
+    display: flex;
+    justify-content: center;
+
+}
+
+.store-image-apple {
+    width: 100px;
+}
+
+.store-image-play {
+    width: 115px;
+}
+
+.arrow-button {
+    position: relative;
+    top:35px;
+    width:60px;
+}
+
+/* This is the break point CSS for the conatiner mobile responsive */
+@media (max-width: 480px) {
+.centered-container {
+    margin-top: -22%;
+    padding-top: 25%;
+    padding-bottom: 5%;
+}
+
+.header-texts {
+    font-size: 35px;
+    margin-bottom:0px;
+}
+
+.header-description {
+    font-size: 12px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.store-row {
+    display: flex;
+    justify-content: center;
+    
+}
+.store-image-apple {
+    width: 90px;
+    position: relative;
+    left: 25%;
+}
+
+.store-image-play {
+    width: 100px;
+    position: relative;
+    right: 25%;
+}
+.arrow-button {
+    top: 10px;
+    width: 50px;
+}
+}

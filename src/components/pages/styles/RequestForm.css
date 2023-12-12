@@ -1,0 +1,67 @@
+
+.email-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.email-container{
+    width: 38%;
+    background: white;
+    border-radius: 10px;
+    padding: 50px 60px 60px 60px;
+    margin-top: 50px;
+}
+
+.form-header {
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 30px;
+
+}
+
+.form-field {
+    display: block;
+    width: 100%;
+    padding: 5px 5px 15px 0px;
+    font-size: 15px;
+    font-weight: normal;
+    background-clip: padding-box;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: lightgray;
+}
+
+select#role.form-field{
+    color: #757575;
+}
+
+.form-button-submit {
+    display: flex;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    border-style: solid;
+    border-color: #E9EBEF;
+    border-radius: 12px;
+    background: #E9EBEF;
+}
+
+/* This is the break point CSS for the conatiner mobile responsive */
+@media (max-width: 480px) {
+.email-container {
+    width: 93%;
+    background: white;
+    border-radius: 10px;
+    padding: 50px 40px 50px 40px;
+    margin-top: 50px;
+}
+}

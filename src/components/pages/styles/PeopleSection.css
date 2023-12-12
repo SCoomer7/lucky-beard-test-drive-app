@@ -1,0 +1,52 @@
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6%;
+}
+
+.row-list {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 65%;
+}
+
+.image-phone {
+    width: 80%;
+}
+
+
+/* This is the break point CSS for the conatiner mobile responsive */
+@media (max-width: 480px) {
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0%;
+}
+
+.row-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 5%;
+    width: 100%;
+}
+
+.row-column {
+    display: flex;
+    justify-content: center;
+    position: static;
+    left: 0%;
+}
+
+.image-phone {
+    padding-top: 10%;
+}
+}

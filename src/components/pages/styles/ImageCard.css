@@ -1,0 +1,21 @@
+.card {
+    border-radius: 10px;
+}
+
+.image-card {
+    width: 24px !important;
+    margin-left: 16px !important;
+    margin-top:16px !important;
+}
+
+.card-title {
+font-weight: bold;
+text-transform: uppercase !important;
+font-size: 17px !important;
+text-align: left !important;
+}
+
+.card-text {
+    font-size: 15px !important;
+    text-align: left !important;
+}
